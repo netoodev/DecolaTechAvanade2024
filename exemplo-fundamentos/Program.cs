@@ -1,14 +1,30 @@
 ﻿using exemplo_fundamentos.Models;
 
+double a = 4 / (2 + 2);
+
+Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
 //cast implícito
 
 //  int a = 5;
 //  double b = a;
 
- long a = 5;
- int b = Convert.ToInt32(a);
+// long a = 5;
+// int b = Convert.ToInt32(a);
 
-Console.WriteLine(b);
+// Console.WriteLine(b);
 
 
 
