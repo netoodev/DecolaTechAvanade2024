@@ -2,9 +2,9 @@
 
 
 //cast - casting
-// int a = Convert.ToInt32("5");
+int a = Convert.ToInt32(null); //mais indicado para casting, pois caso o valor venha nulo a aplicação não para 
 
-int a = int.Parse("5c");
+// int a = int.Parse(null);
 
 
 Console.WriteLine(a);
