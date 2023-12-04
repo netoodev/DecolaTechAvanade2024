@@ -1,10 +1,11 @@
 ﻿using exemplo_fundamentos.Models;
 
-string opcao;
+string? opcao;
+bool exibirMenu = true; 
 
-
-while (true)
-{   
+while (exibirMenu)
+{ 
+    Console.Clear();
     Console.WriteLine("Digite a sua opção: ");
     Console.WriteLine("1 - Cadastrar cliente");
     Console.WriteLine("2 -Buscar cliente");
@@ -29,7 +30,7 @@ while (true)
         
         case "4":
             Console.WriteLine("Encerrar");
-            Environment.Exit(0);
+            exibirMenu = false;
             break;
 
         default:
@@ -38,6 +39,8 @@ while (true)
             
     }
 }
+
+Console.WriteLine("O seu programa se encerrou.");
 
 
 
