@@ -1,36 +1,102 @@
 ﻿using exemplo_fundamentos.Models;
 
+Console.WriteLine("Digite uma letra: ");
+string? letra = Console.ReadLine();
 
-int quantidadeEmEstoque = 3;
-int quantidadeCompra = 0;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
-string resposta;
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine($"A letra {letra} é vogal");
+        break;
+    default:
+        Console.WriteLine("Não é uma vogal.");
+        break;
+}
 
-if (possivelVenda)
-{
-    resposta = "Sim.";
-}
-else
-{
-    resposta = "Não.";
-}
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-Console.WriteLine($"É possível realizar a venda? {resposta}");
 
-if (quantidadeCompra == 0)
-{
-    Console.WriteLine("Venda inválida");
-}
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda Realizada.");
-}
-else
-{
-    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (letra == "a" ||
+//     letra == "e" ||
+//     letra == "i" || 
+//     letra == "o" ||
+//     letra == "u")
+// {
+//     Console.WriteLine("Vogal.");
+// }
+// else
+// {
+//     Console.WriteLine("Não é vogal.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+// string resposta;
+
+// if (possivelVenda)
+// {
+//     resposta = "Sim.";
+// }
+// else
+// {
+//     resposta = "Não.";
+// }
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É possível realizar a venda? {resposta}");
+
+// if (quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda inválida");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda Realizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+// }
 
 
 
