@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj": {}
+    "C:\\Users\\ALUNO.N61800\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj": {
+    "C:\\Users\\ALUNO.N61800\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\ALUNO.N61800\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
         "projectName": "exemplo-fundamentos",
-        "projectPath": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\obj\\",
+        "projectPath": "C:\\Users\\ALUNO.N61800\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
+        "packagesPath": "C:\\Users\\ALUNO.N61800\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALUNO.N61800\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ALUNO.N61800\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
