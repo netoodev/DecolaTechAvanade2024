@@ -1,16 +1,48 @@
 ﻿using exemplo_fundamentos.Models;
 
+int numeroIncremento = 10;
 
-Calculadora calc = new Calculadora();
+Console.WriteLine(numeroIncremento);
+Console.WriteLine($"Incrementando o {numeroIncremento}");
+numeroIncremento++;
+Console.WriteLine(numeroIncremento);
+
+int numeroDecremento = 20;
+
+Console.WriteLine(numeroDecremento);
+Console.WriteLine($"Decrementando o {numeroDecremento}");
+numeroDecremento--;
+Console.WriteLine(numeroDecremento);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(10,30);
 // calc.Subtrair(10,50);
 // calc.Multiplicar(15,45);
 // calc.Dividir(2,2);
 // calc.Potencia(3,3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
 
 
 
