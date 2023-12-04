@@ -2,8 +2,8 @@
 
 
 int quantidadeEmEstoque = 3;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 string resposta;
 
 if (possivelVenda)
@@ -19,7 +19,11 @@ Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
 Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
 Console.WriteLine($"É possível realizar a venda? {resposta}");
 
-if (possivelVenda)
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida");
+}
+else if (possivelVenda)
 {
     Console.WriteLine("Venda Realizada.");
 }
