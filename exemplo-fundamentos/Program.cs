@@ -1,13 +1,27 @@
 ﻿using exemplo_fundamentos.Models;
 
+int inteiro = 5;
+string a = inteiro.ToString();
+Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
 
 //cast - casting
-int a = Convert.ToInt32(null); //mais indicado para casting, pois caso o valor venha nulo a aplicação não para 
+// int a = Convert.ToInt32(null); //mais indicado para casting, pois caso o valor venha nulo a aplicação não para 
 
-// int a = int.Parse(null);
+// // int a = int.Parse(null);
 
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
 
 
