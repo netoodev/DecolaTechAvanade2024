@@ -1,14 +1,31 @@
 ﻿using exemplo_fundamentos.Models;
 
-int inteiro = 5;
-string a = inteiro.ToString();
-Console.WriteLine(a);
+//cast implícito
+
+//  int a = 5;
+//  double b = a;
+
+ long a = 5;
+ int b = Convert.ToInt32(a);
+
+Console.WriteLine(b);
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+// Console.WriteLine(a);
 
 
 
@@ -22,11 +39,6 @@ Console.WriteLine(a);
 
 
 // Console.WriteLine(a);
-
-
-
-
-
 
 
 
