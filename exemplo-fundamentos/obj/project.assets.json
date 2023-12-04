@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Neto\\.nuget\\packages\\": {}
+    "C:\\Users\\aluno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Neto\\Documents\\decola-tech-avanade-4\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
       "projectName": "exemplo-fundamentos",
-      "projectPath": "C:\\Users\\Neto\\Documents\\decola-tech-avanade-4\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
-      "packagesPath": "C:\\Users\\Neto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Neto\\Documents\\decola-tech-avanade-4\\exemplo-fundamentos\\obj\\",
+      "projectPath": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\exemplo-fundamentos.csproj",
+      "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-fundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Neto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
