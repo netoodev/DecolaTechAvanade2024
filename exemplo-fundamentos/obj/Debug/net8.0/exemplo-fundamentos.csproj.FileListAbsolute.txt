@@ -12,3 +12,4 @@ C:\Users\Neto\Documents\decola-tech-avanade-4\exemplo-fundamentos\obj\Debug\net8
 C:\Users\Neto\Documents\decola-tech-avanade-4\exemplo-fundamentos\obj\Debug\net8.0\exemplo-fundamentos.pdb
 C:\Users\Neto\Documents\decola-tech-avanade-4\exemplo-fundamentos\obj\Debug\net8.0\exemplo-fundamentos.genruntimeconfig.cache
 C:\Users\Neto\Documents\decola-tech-avanade-4\exemplo-fundamentos\obj\Debug\net8.0\ref\exemplo-fundamentos.dll
+C:\Users\Neto\Documents\decola-tech-avanade-4\exemplo-fundamentos\obj\Debug\net8.0\exemplo-fundamentos.sourcelink.json
