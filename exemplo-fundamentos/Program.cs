@@ -1,19 +1,32 @@
 ﻿using exemplo_fundamentos.Models;
 
-int numeroIncremento = 10;
 
-Console.WriteLine(numeroIncremento);
-Console.WriteLine($"Incrementando o {numeroIncremento}");
-numeroIncremento++;
-Console.WriteLine(numeroIncremento);
 
-int numeroDecremento = 20;
 
-Console.WriteLine(numeroDecremento);
-Console.WriteLine($"Decrementando o {numeroDecremento}");
-numeroDecremento--;
-Console.WriteLine(numeroDecremento);
 
+
+
+
+
+
+
+
+
+
+
+// int numeroIncremento = 10;
+
+// Console.WriteLine(numeroIncremento);
+// Console.WriteLine($"Incrementando o {numeroIncremento}");
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+
+// int numeroDecremento = 20;
+
+// Console.WriteLine(numeroDecremento);
+// Console.WriteLine($"Decrementando o {numeroDecremento}");
+// numeroDecremento--;
+// Console.WriteLine(numeroDecremento);
 
 
 
@@ -43,7 +56,7 @@ Console.WriteLine(numeroDecremento);
 // calc.Seno(30);
 // calc.Coseno(30);
 // calc.Tangente(30);
-
+// calc.RaizQuadrada(9);
 
 
 
