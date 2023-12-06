@@ -14,5 +14,11 @@ namespace exemplo_explorando.models
         {
             Alunos.Add(aluno);
         }
+
+        public int ObterQuantidadeDeAlunosMatriculados()
+        {
+            int quantidade = Alunos.Count;
+            return quantidade;
+        }
     }
 }
