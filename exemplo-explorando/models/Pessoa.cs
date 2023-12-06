@@ -10,11 +10,7 @@ namespace exemplo_explorando.models
         private string _nome;
         public string Nome
         { 
-            get
-            {
-                return _nome.ToUpper();
-            }
-
+        get => _nome.ToUpper(); // Body expression (=>)
             set
             {
                 if (value == "")
