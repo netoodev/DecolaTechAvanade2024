@@ -1,13 +1,36 @@
 ﻿using exemplo_explorando.models;
 
-Pessoa p1 = new Pessoa(nome: "José", sobrenome: "Neto");
+string numero1 = "10";
+int numero2 = 20;
 
-Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");
+string resultado = numero1 + numero2;
 
-Curso cursoDeIngles = new Curso();
-cursoDeIngles.Nome = "Inglês";
-cursoDeIngles.Alunos = new List<Pessoa>();
+Console.WriteLine(resultado);
 
-cursoDeIngles.AdicionarAluno(p1);
-cursoDeIngles.AdicionarAluno(p2);
-cursoDeIngles.ListarAlunos();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa(nome: "José", sobrenome: "Neto");
+
+// Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");
+
+// Curso cursoDeIngles = new Curso();
+// cursoDeIngles.Nome = "Inglês";
+// cursoDeIngles.Alunos = new List<Pessoa>();
+
+// cursoDeIngles.AdicionarAluno(p1);
+// cursoDeIngles.AdicionarAluno(p2);
+// cursoDeIngles.ListarAlunos();
