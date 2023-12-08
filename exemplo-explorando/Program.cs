@@ -1,4 +1,7 @@
 ﻿using exemplo_explorando.models;
+using System.Globalization;
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
 decimal valorMonetario = 1582.40M;
 
