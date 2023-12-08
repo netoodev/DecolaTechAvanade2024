@@ -11,7 +11,7 @@ namespace exemplo_explorando.models
         private int _idade;
         public string Nome
         { 
-        get => _nome.ToUpper(); // Body expression (=>)
+            get => _nome.ToUpper(); // Body expression (=>)
             set
             {
                 if (value == "")

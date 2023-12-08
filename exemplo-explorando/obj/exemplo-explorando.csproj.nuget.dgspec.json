@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj": {}
+    "C:\\Users\\Neto\\Documents\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj": {
+    "C:\\Users\\Neto\\Documents\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj",
+        "projectUniqueName": "C:\\Users\\Neto\\Documents\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj",
         "projectName": "exemplo-explorando",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\otne\\DecolaTechAvanade2024\\exemplo-explorando\\obj\\",
+        "projectPath": "C:\\Users\\Neto\\Documents\\DecolaTechAvanade2024\\exemplo-explorando\\exemplo-explorando.csproj",
+        "packagesPath": "C:\\Users\\Neto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Neto\\Documents\\DecolaTechAvanade2024\\exemplo-explorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Neto\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
