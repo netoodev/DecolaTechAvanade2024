@@ -3,9 +3,17 @@ using System.Globalization;
 
 string dataString = "2023-12-08 21:00";
 
-DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+bool conversao = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
 
-Console.WriteLine(data);
+if (conversao)
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {data}");
+}
+else 
+{
+    Console.WriteLine($"{dataString} não é uma data válida!");
+}
+
 
 
 
