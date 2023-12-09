@@ -1,7 +1,9 @@
 ﻿using exemplo_explorando.models;
 using System.Globalization;
 
-DateTime data = DateTime.Parse("08/12/2023 21:00");
+string dataString = "2023-12-08 21:00";
+
+DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
 
 Console.WriteLine(data);
 
