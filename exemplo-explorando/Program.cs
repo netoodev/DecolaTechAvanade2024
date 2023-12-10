@@ -29,7 +29,12 @@ catch(Exception ex)
     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
 
-Console.WriteLine("Chegou até aqui.");
+finally
+{
+    Console.WriteLine("Chegou até aqui.");
+}
+
+
 
 
 
