@@ -13,9 +13,9 @@ namespace exemplo_explorando.models
             {
                 Metodo2();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("Exceção tratada.");
+                Console.WriteLine("Exceção tratada. " + ex.Message);
             }
             
         }
