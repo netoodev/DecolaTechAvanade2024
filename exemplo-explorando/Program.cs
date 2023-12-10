@@ -3,7 +3,7 @@ using System.Globalization;
 
 
 
-string[] linhas = File.ReadAllLines("arquivos/arquivoLeitura.txt");
+string[] linhas = File.ReadAllLines("arquivos/arquivo_Leitura.txt");
 
 foreach (string linha in linhas)
 {
