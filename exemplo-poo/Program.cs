@@ -1,10 +1,31 @@
 ﻿using exemplo_poo.Models;
 
-Pessoa p1 = new Pessoa();
-Aluno a1 = new Aluno("Neto");
-a1.Idade = 19;
-a1.Nota = 10;
-a1.Apresentar();
+Computador c = new Computador();
+Console.WriteLine(c.ToString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa();
+// Aluno a1 = new Aluno("Neto");
+// a1.Idade = 19;
+// a1.Nota = 10;
+// a1.Apresentar();
 
 
 
