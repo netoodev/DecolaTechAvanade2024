@@ -9,7 +9,11 @@ a1.Nota = 8.5;
 a1.Apresentar();
 
 
-
+Professor p1 = new Professor();
+p1.Nome = "Leonardo";
+p1.Idade = 30;
+p1.Salario = 5000.00m;
+p1.Apresentar();
 
 
 
