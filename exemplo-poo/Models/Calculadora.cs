@@ -23,12 +23,5 @@ namespace exemplo_poo.Models
             return num1 * num2;
         }
 
-        public double Dividir(double num1, double num2)
-        {
-            return num1 / num2;
-        }
-
-
-
     }
 }

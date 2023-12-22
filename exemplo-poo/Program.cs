@@ -4,7 +4,7 @@ using exemplo_poo.Interfaces;
 
 
 ICalculadora calc = new Calculadora();
-Console.WriteLine(calc.Multiplicar(3,9));
+Console.WriteLine(calc.Dividir(9,3));
 
 
 
